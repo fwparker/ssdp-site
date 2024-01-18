@@ -1,0 +1,327 @@
+.header {
+  /*  border:#2892D7 solid 3px;*/
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 4;
+
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1;
+
+}
+
+.header-button {
+  margin: 4px;
+  flex: 1;
+  background-color: white;
+  color: #2892D7;
+  border: none;
+  text-decoration: none;
+
+}
+
+a {
+  margin: 4px;
+  flex: 1;
+  background-color: white;
+  border: #2892D7 solid 3px;
+  color: #2892D7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+}
+
+#main {
+  background-color: #2892D7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  padding: 70px;
+}
+
+#big-logo {
+  margin-right: 100px;
+}
+
+.main-dark-blue {
+  background-color: #1B4353;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+#main-photo-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+
+#blurb {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#partners-indiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#stats-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 85px;
+  padding-right: 85px;
+  background-color: #2892D7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  width: 400px;
+
+}
+
+
+.number {
+  padding-top: 20px;
+}
+
+
+.main-dark-blue-no-text {
+  background-color: #1B4353;
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+
+}
+
+#community-p {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  margin-bottom: 25px;
+}
+
+.footer {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+
+}
+
+
+#footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+
+#partners-parent {
+  padding-bottom: 50px;
+}
+
+
+#form-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.form-input {
+  margin: 6px;
+  border: #2892D7 solid 1px;
+}
+
+
+.contact-us {
+  border: #2892D7 solid 2px;
+}
+
+#btn {
+  background-color: #2892D7;
+}
+
+#about-us {
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  padding-left: 60px;
+  background-color: #1B4353;
+}
+
+
+#mission-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission-title {
+  color: #1B4353;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+#mission-statement {
+  color: #1B4353;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  padding-bottom: 35px;
+
+}
+
+#our-goals {
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+}
+
+
+#goals {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+  padding: 35px;
+  background-color: #1B4353;
+
+}
+
+#our-goals {
+  background-color: #1B4353;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#mission-parent-title {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+#main-civic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #1B4353;
+  font-family: 'Open Sans', Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+#civic-gallery {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+
+}
+
+.upper-lower {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.photo {
+  padding: 20px;
+}
+
+#blue-bottom {
+  background-color: #1B4353;
+  color: #1B4353;
+}
+
+.title {
+  font-size: 55px;
+
+}
+
+.blurb {
+  font-size: 18px;
+}
+
+
+.education-indiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.education-row {
+  background-color: #1B4353;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#white-top {
+  color: white;
+
+}
+
+#row1 {
+  padding-top: 30px;
+}
+
+#row3 {
+  padding-bottom: 30px;
+}
